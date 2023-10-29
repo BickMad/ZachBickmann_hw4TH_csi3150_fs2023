@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/indexSS.css" rel="stylesheet" type="text/CSS">
+</head>
+<body>
+    
+    <header>
+        <h1>User Cars</h1>
+        
+        <!--creates a filter selector for each filter-->
+        <div class="filter">
+                <label for="year">Year:</label>
+            <select id="year">
+                <option value="">None</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+            </select>
+
+            <label for="maker">Maker:</label>
+            <select id="maker">
+                <option value="">None</option>
+                <option value="Toyota">Toyota</option>
+                <option value="BMW">BMW</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Honda">Honda</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Lexus">Lexus</option>
+                <option value="Jaguar">Jaguar</option>
+                <option value="Ford">Ford</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Subaru">Subaru</option>
+                <option value="VW">VW</option>
+                <option value="Kia">Kia</option>
+                <option value="Cadillac">Cadillac</option>
+            </select>
+
+            <!--input for milage and price-->
+            <label for="mile">Mileage:</label>
+            <input type="text" id="mileage" placeholder="Max Mileage">
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" placeholder="Max Price">
+
+            <label for="color">couldnt figure out color filter:</label>
+            
+            <button id="filterButt">Filter</button>
+        </div>
+        
+    </header>
+    
+    <!--main div where cars will be inserted-->
+    <main>
+        <div class="allCars">
+
+        </div>
+    </main>
+
+
+
+
+
+    <script src="./js/indexjs.js"></script>
+</body>
+</html>
